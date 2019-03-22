@@ -78,7 +78,7 @@ public class CalendarInteraction implements ContactInteraction {
 
     @Override
     public Drawable getIcon(Context context) {
-        return context.getResources().getDrawable(CALENDAR_ICON_RES);
+        return context.getDrawable(CALENDAR_ICON_RES);
     }
 
     @Override

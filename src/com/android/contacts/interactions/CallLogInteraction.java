@@ -112,7 +112,7 @@ public class CallLogInteraction implements ContactInteraction {
 
     @Override
     public Drawable getIcon(Context context) {
-        return context.getResources().getDrawable(CALL_LOG_ICON_RES);
+        return context.getDrawable(CALL_LOG_ICON_RES);
     }
 
     @Override

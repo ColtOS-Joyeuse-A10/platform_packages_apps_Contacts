@@ -80,7 +80,7 @@ public class SmsInteraction implements ContactInteraction {
 
     @Override
     public Drawable getIcon(Context context) {
-        return context.getResources().getDrawable(SMS_ICON_RES);
+        return context.getDrawable(SMS_ICON_RES);
     }
 
     @Override
